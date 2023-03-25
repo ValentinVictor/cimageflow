@@ -10,11 +10,14 @@ import java.util.List;
 import org.apache.tools.ant.BuildException;
 import org.junit.jupiter.api.Test;
 
+import net.vproject.common.FileUtil;
+
 /** @author Volker */
 public class TestAnt {
-	// private static final String PICDIR = "D:\\BilderNeu";
-	private static final String PICDIR = "F:\\EigeneBilder\\";
-	// private static final String PICDIR = "C:\\DataTmp\\testphoto\\DigitalNote";
+	// mit "." funktioniert es nicht, die zwei Backslashes am Ende sind notwendig
+	// private static final String PICDIR =
+	// "C:\\vpfaff_tmp\\tmpProjekte\\cimageflow\\src\\test\\resources\\";
+	private static final String PICDIR = "E:\\EigeneBilder\\";
 	private static final String LACIEDIR = "E:\\Bilder\\EigeneBilder";
 
 	@Test
@@ -34,7 +37,7 @@ public class TestAnt {
 		final AntImageCopy copyClass = new AntImageCopy();
 		copyClass.setsrc(PICDIR);
 		copyClass.setrating("1");
-		copyClass.setdest("D:\\Transfer\\Bilder");
+		copyClass.setdest("C:\\Transfer\\Bilder");
 		try {
 			copyClass.execute();
 		} catch (final BuildException e) {

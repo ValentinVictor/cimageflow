@@ -1,0 +1,24 @@
+<project name="test" default="all" basedir=".">
+ <!--   <property name="jar" value="../../build/libs/cimageflow-0.8.1.jar"/>
+    <property name="jar" value="C:/vpfaff_tmp/tmpProjekte/cimageflow/build/libs/cimageflow-0.8.1.jar"/>-->
+    <property name="jar" value="cimageflow-0.8.1.jar"/>
+    <property name="jar2" value="cimageio-0.8.1.jar"/>
+    <path id="my.classes">
+        <fileset dir=".">
+            <include name="§{jar}"/>
+            <include name="§{jar2}"/>
+        </fileset>
+    </path>
+    <property file="build.properties" />
+    <taskdef name="cfstatistic" classname="net.vproject.imageflow.AntStatistic" classpathref="my.classes"/>
+    <taskdef name="cfmystatistic" classname="net.vproject.imageflow.AntMyStatistic" classpath="${jar}"/>
+    <target name="statistic" description="erzeugt die Informationen zum Projekt">
+        <cfstatistic mode="1" src="."/>
+        <cfstatistic mode="2"/>
+        <cfstatistic mode="3"/>
+     </target>
+    <target name="mystatic" description="erzeugt die Informationen zum Projekt">
+        <cfmystatistic  />
+    </target>
+    <target name="all" depends="statistic,mystatistic" description="führt alle Tests aus"/>
+ </project>

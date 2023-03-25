@@ -6,27 +6,23 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" output="bin/main" path="src/main/resources">
-		<attributes>
-			<attribute name="gradle_scope" value="main"/>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="src" output="bin/test" path="src/test/java">
 		<attributes>
+			<attribute name="test" value="true"/>
 			<attribute name="gradle_scope" value="test"/>
 			<attribute name="gradle_used_by_scope" value="test"/>
-			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" output="bin/test" path="src/test/resources">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/graalvm 17">
 		<attributes>
-			<attribute name="gradle_scope" value="test"/>
-			<attribute name="gradle_used_by_scope" value="test"/>
-			<attribute name="test" value="true"/>
+			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11/"/>
-	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Ant"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="lib" path="lib/cimageio-0.8.1.jar" sourcepath="C:/vpfaff_tmp/tmpProjekte/cimageio/src/main/java"/>
+	<classpathentry kind="lib" path="C:/Tool/java/metadata-extractor-2.18.0.jar" sourcepath="C:/vpfaff_tmp/tmpProjekte/metadata-extractor-master"/>
+	<classpathentry kind="lib" path="C:/Tool/java/xmpcore-6.1.11.jar" sourcepath="C:/Tool/java/adobe-xmp-core-master"/>
+	<classpathentry kind="lib" path="C:/Tool/java/commons-imaging-1.0-alpha3/commons-imaging-1.0-alpha3.jar" sourcepath="C:/vpfaff_tmp/tmpProjekte/commons-imaging-1.0-alpha3-src"/>
 	<classpathentry kind="output" path="bin/default"/>
 </classpath>

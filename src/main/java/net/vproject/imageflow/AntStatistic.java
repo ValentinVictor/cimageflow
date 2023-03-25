@@ -6,12 +6,15 @@ import java.util.List;
 
 import org.apache.tools.ant.BuildException;
 
+import net.vproject.common.FileUtil;
 import net.vproject.imageio.IMetaInfo;
 import net.vproject.imageio.MetaInfo;
 
-/** baut eine Statisitik Ã¼ber alle Bilder eines Verzeichnisses auf.
+/**
+ * baut eine Statisitik über alle Bilder eines Verzeichnisses auf.
  *
- * @author Volker */
+ * @author Volker
+ */
 public class AntStatistic extends AbstractAntImage {
 	private int mode = 1;
 
@@ -68,7 +71,8 @@ public class AntStatistic extends AbstractAntImage {
 	 * <li>3 csv variant of information</li>
 	 * </ul>
 	 *
-	 * @param outputMode an integer for the type of output. */
+	 * @param outputMode an integer for the type of output.
+	 */
 	public void setmode(int ouputMode) {
 		mode = ouputMode;
 	}

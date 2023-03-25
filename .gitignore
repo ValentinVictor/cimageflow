@@ -4,3 +4,8 @@
 # Ignore Gradle build output directory
 build
 bin
+
+/.idea
+/.dbeaver
+
+src/test/resources/build.properties

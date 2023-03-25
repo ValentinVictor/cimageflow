@@ -7,6 +7,7 @@ import java.util.TreeMap;
 
 import org.apache.tools.ant.BuildException;
 
+import net.vproject.common.FileUtil;
 import net.vproject.imageio.IMetaInfo;
 import net.vproject.imageio.MetaInfo;
 
