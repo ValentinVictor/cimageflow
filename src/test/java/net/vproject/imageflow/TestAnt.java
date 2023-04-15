@@ -4,8 +4,10 @@ package net.vproject.imageflow;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.fail;
+import org.junit.jupiter.api.BeforeAll;
 
 import java.util.List;
+import java.util.ResourceBundle;
 
 import org.apache.tools.ant.BuildException;
 import org.junit.jupiter.api.Test;
@@ -14,11 +16,18 @@ import net.vproject.common.FileUtil;
 
 /** @author Volker */
 public class TestAnt {
-	// mit "." funktioniert es nicht, die zwei Backslashes am Ende sind notwendig
-	// private static final String PICDIR =
-	// "C:\\vpfaff_tmp\\tmpProjekte\\cimageflow\\src\\test\\resources\\";
-	private static final String PICDIR = "E:\\EigeneBilder\\";
-	private static final String LACIEDIR = "E:\\Bilder\\EigeneBilder";
+	private static ResourceBundle res = ResourceBundle.getBundle("build");
+
+	private static String PICDIR = "./";
+
+	@BeforeAll
+	private void init() {
+		try {
+			PICDIR = res.getString("srcDir");
+		} catch (Exception e) {
+// wenn kein build.properties vorhanden oder kein key , dann lokaler Test
+		}
+	}
 
 	@Test
 	public void checkCategory() {
@@ -27,7 +36,6 @@ public class TestAnt {
 		try {
 			statClass.execute();
 		} catch (final BuildException e) {
-			e.printStackTrace();
 			fail(e.getMessage());
 		}
 	}
@@ -41,7 +49,7 @@ public class TestAnt {
 		try {
 			copyClass.execute();
 		} catch (final BuildException e) {
-			e.printStackTrace();
+
 			fail(e.getMessage());
 		}
 	}
@@ -61,7 +69,6 @@ public class TestAnt {
 		try {
 			statClass.execute();
 		} catch (final BuildException e) {
-			e.printStackTrace();
 			fail(e.getMessage());
 		}
 	}
@@ -73,7 +80,6 @@ public class TestAnt {
 		try {
 			statClass.execute();
 		} catch (final BuildException e) {
-			e.printStackTrace();
 			fail(e.getMessage());
 		}
 	}

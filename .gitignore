@@ -1,11 +1,19 @@
 # Ignore Gradle project-specific cache directory
 .gradle
+gradlew
+gradlew.bat
 
 # Ignore Gradle build output directory
 build
 bin
+deploy
 
 /.idea
 /.dbeaver
+/.settings
+
+.classpath
+.project
 
 src/test/resources/build.properties
+
