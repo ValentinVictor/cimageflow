@@ -11,7 +11,7 @@ import net.vproject.imageio.IMetaInfo;
 import net.vproject.imageio.MetaInfo;
 
 /**
- * baut eine Statisitik über alle Bilder eines Verzeichnisses auf.
+ * baut eine Statisitik Ã¼ber alle Bilder eines Verzeichnisses auf.
  *
  * @author Volker
  */
@@ -73,7 +73,7 @@ public class AntStatistic extends AbstractAntImage {
 	 *
 	 * @param outputMode an integer for the type of output.
 	 */
-	public void setmode(int ouputMode) {
-		mode = ouputMode;
+	public void setmode(int outputMode) {
+		mode = outputMode;
 	}
 }
