@@ -1,0 +1,12 @@
+ANT_OPTS is set to  -Djava.security.manager=allow
+Buildfile: C:\vpfaff_tmp\tmpProjekte\cimageflow\deploy\build.xml
+
+mystatistic:
+[cfmystatistic] Datum,Verzeichnis,Anzahl Bilder,Events,EventInfos(*.md),Qualitaet keine,1,2,3,4,5,Tags,Mod.Files
+[cfmystatistic] 2025-10-05,F://EigeneBilder/AddEvents,704,37,3,704,0,0,0,0,0,38,2
+[cfmystatistic] 2025-10-05,F://EigeneBilder/Additional,5427,88,0,4369,1,612,379,64,2,2504,16
+[cfmystatistic] 2025-10-05,F://EigeneBilder/Analog,1592,159,4,1592,0,0,0,0,0,780,16
+[cfmystatistic] 2025-10-05,F://EigeneBilder/Digital,11777,471,138,11363,0,156,141,87,30,8954,390
+
+BUILD SUCCESSFUL
+Total time: 4 minutes 23 seconds

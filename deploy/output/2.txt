@@ -1,0 +1,35 @@
+ANT_OPTS is set to  -Djava.security.manager=allow
+Buildfile: C:\vpfaff_tmp\tmpProjekte\cimageflow\deploy\build.xml
+
+bigDir:
+[cfstatistic] Okt. 05, 2025 11:23:23 PM net.vproject.imageio.MetaInfo <init>
+[cfstatistic] WARNUNG: F:\EigeneBilder\archiv\SecondAdditional\110612_BerlinKonfirmation\P1020214.JPG File format could not be determined
+[cfstatistic] Okt. 05, 2025 11:24:12 PM net.vproject.imageio.MetaInfo <init>
+[cfstatistic] WARNUNG: F:\EigeneBilder\archiv\Second\2012\120901_Berlin\120901_47.JPG File format could not be determined
+[cfstatistic] Okt. 05, 2025 11:24:12 PM net.vproject.imageio.MetaInfo <init>
+[cfstatistic] WARNUNG: F:\EigeneBilder\archiv\Second\2012\120901_Berlin\120901_48.JPG File format could not be determined
+[cfstatistic] Okt. 05, 2025 11:24:12 PM net.vproject.imageio.MetaInfo <init>
+[cfstatistic] WARNUNG: F:\EigeneBilder\archiv\Second\2012\120901_Berlin\120901_49.JPG File format could not be determined
+[cfstatistic] Okt. 05, 2025 11:24:12 PM net.vproject.imageio.MetaInfo <init>
+[cfstatistic] WARNUNG: F:\EigeneBilder\archiv\Second\2012\120901_Berlin\120901_50.JPG File format could not be determined
+[cfstatistic] Okt. 05, 2025 11:24:12 PM net.vproject.imageio.MetaInfo <init>
+[cfstatistic] WARNUNG: F:\EigeneBilder\archiv\Second\2012\120901_Berlin\120901_51.JPG File format could not be determined
+[cfstatistic] Okt. 05, 2025 11:24:12 PM net.vproject.imageio.MetaInfo <init>
+[cfstatistic] WARNUNG: F:\EigeneBilder\archiv\Second\2012\120901_Berlin\120901_52.JPG File format could not be determined
+[cfstatistic] Okt. 05, 2025 11:24:12 PM net.vproject.imageio.MetaInfo <init>
+[cfstatistic] WARNUNG: F:\EigeneBilder\archiv\Second\2012\120901_Berlin\120901_53.JPG File format could not be determined
+[cfstatistic] Okt. 05, 2025 11:24:12 PM net.vproject.imageio.MetaInfo <init>
+[cfstatistic] WARNUNG: F:\EigeneBilder\archiv\Second\2012\120901_Berlin\120901_54.JPG File format could not be determined
+[cfstatistic] Okt. 05, 2025 11:24:12 PM net.vproject.imageio.MetaInfo <init>
+[cfstatistic] WARNUNG: F:\EigeneBilder\archiv\Second\2012\120901_Berlin\120901_55.JPG File format could not be determined
+[cfstatistic] Okt. 05, 2025 11:24:12 PM net.vproject.imageio.MetaInfo <init>
+[cfstatistic] WARNUNG: F:\EigeneBilder\archiv\Second\2012\120901_Berlin\120901_56.JPG File format could not be determined
+[cfstatistic] Okt. 05, 2025 11:24:12 PM net.vproject.imageio.MetaInfo <init>
+[cfstatistic] WARNUNG: F:\EigeneBilder\archiv\Second\2012\120901_Berlin\120901_58.JPG File format could not be determined
+[cfstatistic] Okt. 05, 2025 11:24:12 PM net.vproject.imageio.MetaInfo <init>
+[cfstatistic] WARNUNG: F:\EigeneBilder\archiv\Second\2012\120901_Berlin\120901_59.JPG File format could not be determined
+[cfstatistic] 28919 files (F://EigeneBilder/), in 1550 Events 147 mit Beschreibungen 13697 keywords, files verbessert 459
+[cfstatistic] kein Author: 19513 no:27211 1:137 2:822 3:558 4:159 5:32
+
+BUILD SUCCESSFUL
+Total time: 6 minutes 6 seconds
